@@ -24,15 +24,17 @@ def send_emails_from_csv(csv_file):
             if not to_email:
                 continue
 
-            subject = "Quick collaboration opportunity"
-            body = f"""Hi,
+            subject = "Potential Collaboration Opportunity"
+            body = f"""Dear Team,
 
-We are currently onboarding brands in the Middle East for pilot campaigns.
+Greetings from GEW LLC.
 
-If {brand} is open to influencer collaborations, we’d love to connect.
+We are reaching out to explore a potential collaboration with {brand}. GEW LLC works with organizations across the oil and energy sector, supporting strategic partnerships and regional business initiatives.
 
-Best regards,
-TAIPPA Team
+We would be glad to connect and discuss this further if of interest.
+
+Kind regards,
+GEW LLC
 """
 
             msg = MIMEMultipart()
@@ -52,3 +54,4 @@ TAIPPA Team
 
             except Exception as e:
                 print(f"❌ Failed for {to_email}: {e}")
+
