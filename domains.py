@@ -1,0 +1,22 @@
+BRAND_DOMAINS = [
+    "adnoc.ae",
+    "adnocgas.ae",
+    "enoc.com",
+    "dragonoil.com",
+    "snoc.ae",
+    "danagas.com",
+    "taqa.com",
+    "taqadistribution.com",
+    "emarat.ae",
+    "flowserve.com",
+    "almasaood.com",
+    "toscuae.com",
+    "energyventuresme.com",
+    "bp.com",
+    "schlumberger.com",
+    "halliburton.com",
+    "weatherford.com",
+    "kentz.com",
+    "slb.com",
+    "petrofac.com"
+]
